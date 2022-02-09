@@ -62,6 +62,7 @@ describe('TodoMVC', function () {
     cy.get('.todo-list li').should('have.length', 2)
   })
 
+  // random changes for github actions
   context('No Todos', function () {
     it('should hide #main and #footer', function () {
       // Unlike the TodoMVC tests, we don't need to create
