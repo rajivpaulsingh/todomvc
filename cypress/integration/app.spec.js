@@ -74,6 +74,7 @@ describe('TodoMVC', function () {
       cy.get('.todo-list li').should('not.exist')
       cy.get('[data-layer="Content"]').should('not.exist')
       cy.get('.footer').should('not.be.visible')
+      cy.wait(2000)
     })
   })
 
